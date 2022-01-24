@@ -1,0 +1,90 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    margin: 8% 10%;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 5px 6px 10px rgb(0, 0, 0);
+
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: auto 0;
+    padding: 0 10% 0 8%;
+
+}
+
+.imagem {
+    background-color: hsla(277, 81%, 44%, 0.945);
+    border-radius: 8px;
+    display: flex;
+
+}
+
+h1 a {
+    color: hsl(277, 64%, 61%);
+    text-decoration: none;
+
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: normal;
+
+}
+
+#img {
+    opacity: 0.5;
+
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.t1, .t1>h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 30px;
+    
+}
+
+.t2, .t2>h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 30px;
+   
+}
+
+.t3, .t3>h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h5 {
+    margin-top: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: normal;
+
+}
